@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Ubuntu');
+
+body{
+    margin:  0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+#layout{
+    background: url(img/codeSimple.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+}
+#contents{
+    background: rgba(0,0,0,0.9);
+    height: 80vh;
+    padding: 10vh 0 0;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+}
+#contents div{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#contents h1{
+    font-size: 80px;
+    margin: 0;
+}
+#contents h2{
+    font-size: 30px;
+}
+#contents button{
+    width: 40%;
+    padding: 2% 0;
+    font-size: 20px;
+    color: white;background: rgb(228, 36, 36);
+    border: none;
+    border-radius: 10px;
+    margin-top: 7%;
+}
+
+#footer img{
+    width: 100px;
+    height: 50px;
+    margin-right: 2%;
+}
+.img{
+    width: 70%;
+    height: 10vh;
+}
+#footer{
+    padding-left: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 10vh;
+    line-height: 10vh;
+    background: rgba(0,0,0,0.9);
+    color: white;
+}
+.p{
+    margin-right: 2%;
+    color: rgb(228, 36, 36);
+    font-size: 20px;
+}
